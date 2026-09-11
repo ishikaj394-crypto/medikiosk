@@ -1,5 +1,5 @@
 # medikiosk
-MediKiosk is a web-based patient and doctor care coordination platform developed using HTML, CSS, and JavaScript and JS.
+MediKiosk is a web-based patient and doctor care coordination platform developed using HTML, CSS, and JavaScript.
 CSS
 :root {
   --bg: #f5f7fb;
