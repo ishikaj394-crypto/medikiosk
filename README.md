@@ -1,74 +1,14 @@
 # medikiosk
-MediKiosk is a web-based patient and doctor care coordination platform developed using HTML, CSS, and JavaScript.
+MediKiosk is a web-based patient and doctor care coordination platform developed using HTML, CSS, and JavaScript
 
-HTML: 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MediKiosk — Patient Self Check-In</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="kiosk-container">
-    
-    <!-- Header -->
-    <header class="kiosk-header">
-      <div class="brand">
-        <span class="logo-icon">+</span>
-        <h1>MediKiosk</h1>
-      </div>
-      <div class="system-status">
-        <span class="status-dot"></span> System Ready
-      </div>
-    </header>
-
-    <!-- Main Content Area -->
-    <main class="kiosk-card">
-      <div class="step-indicator">
-        <span class="step active">1. Patient Lookup</span>
-        <span class="step">2. Reason for Visit</span>
-        <span class="step">3. Confirmation</span>
-      </div>
-
-      <div class="kiosk-body">
-        <h2>Welcome to HealthCare Clinic</h2>
-        <p class="subtitle">Please scan your ID or enter your details below to check in.</p>
-
-        <form action="/api/checkin" method="POST" class="checkin-form">
-          <div class="form-grid">
-            <div class="form-group">
-              <label for="fullName">Full Name</label>
-              <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
-            </div>
-
-            <div class="form-group">
-              <label for="dob">Date of Birth</label>
-              <input type="date" id="dob" name="dob" required>
-            </div>
-
-            <div class="form-group full-width">
-              <label for="appointmentId">Appointment ID / Phone Number</label>
-              <input type="text" id="appointmentId" name="appointmentId" placeholder="Enter ID or Phone Number">
-            </div>
-          </div>
-
-          <div class="button-group">
-            <button type="button" class="btn btn-secondary">Clear</button>
-            <button type="submit" class="btn btn-primary">Continue Check-In →</button>
-          </div>
-        </form>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="kiosk-footer">
-      <p>Need assistance? Tap <strong>Help</strong> or speak to the front desk staff.</p>
-      <button class="btn-help">Call Help Desk</button>
-    </footer>
-
-  </div>
-</body>
-</html>
-
+- Developed MediKiosk, a web-based platform focused on improving coordination and interaction between patients and doctors.
+- Designed and developed the application using HTML5, CSS3, and JavaScript.
+- Created a structured and user-friendly interface with emphasis on simplicity, accessibility, and ease of navigation.
+- Implemented a responsive frontend layout to provide a consistent user experience across different screen sizes.
+- Used HTML to structure the application's content and user interface components.
+- Utilized CSS to create the visual design, layout, and responsive styling of the platform.
+- Used JavaScript to handle application logic and provide interactive functionality.
+- Maintained a modular project structure by separating the HTML, CSS, and JavaScript components, improving code organization and maintainability.
+- Applied frontend development principles to create a practical solution for a healthcare-oriented use case.
+- Gained hands-on experience in web development, responsive UI design, frontend architecture, and JavaScript-based interaction.
+- Focused on building a clean digital interface that can support effective patient–doctor care coordination.
